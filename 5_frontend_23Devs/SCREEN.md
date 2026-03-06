@@ -1,0 +1,1 @@
+![alt text](image_2026-01-21_19-05-57-1.png) ![alt text](image_2026-01-21_19-05-58-1.png) ![alt text](image_2026-01-21_19-05-59-1.png)
