@@ -1,0 +1,11 @@
+# Dockerfile
+FROM python:3.9-slim
+
+# Устанавливаем рабочую директорию
+WORKDIR /app
+
+# Копируем файл с кодом
+COPY game_scores.py .
+
+# Запускаем программу
+CMD ["python", "game_scores.py"]
