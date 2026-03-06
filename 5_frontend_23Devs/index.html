@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">     
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="first-name">Имя</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Ваше имя">
+                    <div class="error-message" id="first-name-error"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="last-name">Фамилия</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Ваша фамилия">
+                    <div class="error-message" id="last-name-error"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com">
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="birth-day">Дата рождения</label>
+                    <input type="date" id="birth-day" name="birth-day">
+                    <div class="error-message" id="birth-day-error"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" placeholder="Придумайте пароль">
+                    <div class="error-message" id="password-error"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password-confirm">Повторите пароль</label>
+                    <input type="password" id="password-confirm" name="password-confirm" placeholder="Повторите пароль">
+                    <div class="error-message" id="password-confirm-error"></div>
+                </div>
+                
+                <button type="submit" id="form-button" class="submit-btn" disabled>Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
